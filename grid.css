@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ main {
+     width: 50%;
+     display: grid;
+     grid-template-areas: 
+     'a a a b b'
+     'a a a b b'
+     'a a a b b'
+     'c c d d d'
+     'c c e e e'
+     ;
+     gap: 10px;
+ }
+
+ div {
+     padding: 2em;
+ }
+
+ .firstbox {
+     background-color: orange;
+     grid-area: a;
+ }
+
+ .secondbox {
+     background-color: yellow;
+     grid-area: b;
+
+ }
+
+ .thirdbox {
+     background-color: green;
+     grid-area: c;
+ }
+
+ .fourthbox {
+     background-color: blue;
+     grid-area: d;
+ }
+
+ .fifthbox {
+     background-color: blue;
+     grid-area: e;
+ }
