@@ -3,45 +3,49 @@
     padding: 0;
 }
 
- main {
-     width: 50%;
-     display: grid;
-     grid-template-areas: 
-     'a a a b b'
-     'a a a b b'
-     'a a a b b'
-     'c c d d d'
-     'c c e e e'
-     ;
-     gap: 10px;
- }
+body {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+}
 
- div {
-     padding: 2em;
- }
+main {
+    display: grid;
+    grid-template-areas: 
+    'a a a b b'
+    'a a a b b'
+    'c c d d d'
+    'c c e e e'
+    ;
+    width: 40%;
+    margin: auto;
+  
+    gap: 10px;
+    
+}
 
- .firstbox {
-     background-color: orange;
-     grid-area: a;
- }
+div {
+    padding: 2em;
+    text-align: center;
+}
 
- .secondbox {
-     background-color: yellow;
-     grid-area: b;
-
- }
-
- .thirdbox {
-     background-color: green;
-     grid-area: c;
- }
-
- .fourthbox {
-     background-color: blue;
-     grid-area: d;
- }
-
- .fifthbox {
-     background-color: blue;
-     grid-area: e;
- }
+.box1 {
+    background-color: orangered;
+    grid-area: a;
+}
+.box2 {
+background-color: orange;
+grid-area: b;
+}
+.box3 {
+    background-color: green;
+    grid-area: c;
+}
+.box4 {
+    background-color: royalblue;
+    grid-area: d;
+}
+.box5 {
+    background-color: royalblue;
+    grid-area: e;
+}
